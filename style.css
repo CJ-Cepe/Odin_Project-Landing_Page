@@ -118,8 +118,9 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 68vh;
+    height: 70vh;
     background-color: #325d53;
+    padding: 0 0 20px 0;
 }
 
 .cont-2 h2 {
