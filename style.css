@@ -116,7 +116,7 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 70vh;
+    height: 68vh;
 }
 
 .cont-2 h2 {
@@ -148,6 +148,28 @@ header a {
     font-size: 18px;
     color: #486a31;
 }
+
+/* == cont-3 == */
+.cont-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  1% 0;
+}
+
+.cont-3 p {
+    max-width: 70%;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.cont-3 span{
+    margin-left: 53%; 
+    font-weight: bold;
+    font-size: 23px;
+}
+
 /* == Footer == */
 .footer {
     background-color: #1f2937;
