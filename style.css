@@ -1,5 +1,5 @@
 * {
-    /* outline: 1px red dotted; */
+   /*  outline: 1px red dotted; */
 }
 
 body {
@@ -155,6 +155,7 @@ header a {
     flex-direction: column;
     align-items: center;
     padding:  1% 0;
+    color: #325d53;
 }
 
 .cont-3 p {
@@ -168,6 +169,61 @@ header a {
     margin-left: 53%; 
     font-weight: bold;
     font-size: 23px;
+}
+
+
+/* == cont-4 == */
+
+.cont-4 {
+    height: 68vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue-cont {
+    align-self: stretch;
+    display: flex;
+    background-color: #8eac3b;
+    border-radius: 15px;
+    padding: 50px 0;
+    justify-content: center;
+    gap: 130px;
+}
+
+.blue-cont .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.font-bigger {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.font-smaller {
+    font-size: 15px;
+    font-style: italic;
+    color: #325d53;
+}
+
+.button-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-cont button {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+
 }
 
 /* == Footer == */
