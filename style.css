@@ -1,10 +1,10 @@
 * {
-   /*  outline: 1px red dotted; */
+     /* outline: 1px red dotted; */
 }
 
 body {
     font-family: arial, 'Courier New', Courier, monospace;
-    padding: 0 10%;
+    /* padding: 0 10%; */
 }
 
 /* == HEADER == */
@@ -12,7 +12,7 @@ header {
     padding: 16px 0;
     display: flex;
     background-color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -50,7 +50,7 @@ header a {
 /* == Cont 1 == */
 .cont-1 {
     display:flex;
-    height: 90vh;
+    height: 93vh;
 }
 
 .hero-section{
@@ -58,6 +58,7 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10%;
 }
 
 .hero-section h1 {
@@ -103,6 +104,7 @@ header a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 10%;
 }
 
 .img-pholder img{
@@ -117,19 +119,20 @@ header a {
     flex-direction: column;
     align-items: center;
     height: 68vh;
+    background-color: #325d53;
 }
 
 .cont-2 h2 {
     margin: 5vh 0;
     padding: 0;
     font-size: 36px;
-    color: #486a31;
+    color: #8eac3b;
 }
 
 .cards-parent-cont {
     align-self: stretch;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .cards-cont {
@@ -146,7 +149,7 @@ header a {
 
 .cards-cont p {
     font-size: 18px;
-    color: #486a31;
+    color: #8eac3b;
 }
 
 /* == cont-3 == */
@@ -175,12 +178,14 @@ header a {
 /* == cont-4 == */
 
 .cont-4 {
-    height: 68vh;
+    height: 30vh;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #325d53;
+    padding: 0 10%;
 }
 
 .blue-cont {
@@ -228,11 +233,11 @@ header a {
 
 /* == Footer == */
 .footer {
-    background-color: #1f2937;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5e7eb;
+    color: #325d53;
     font-size: 18px;
     padding: 16px 0;
 }
